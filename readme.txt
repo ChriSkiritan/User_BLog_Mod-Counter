@@ -1,6 +1,6 @@
 ==========  DESCRIPTION OF ISSUES  ==========
 Most counter errors occur when editing/deleting etc pending (unapproved or soft-deleted) blogs or replies.
-Counter values mostly decrease more than expected and just before taking negative values, you get one of the error messages: 
+Counter mostly decrements more than expected and just before taking negative values, you get one of the error messages: 
 BIGINT UNSIGNED value is out of range in '(`mydatabase`.`phpbb_users`.`blog_count` - 1)' [1690]
 BIGINT UNSIGNED value is out of range in '(`mydatabase`.`phpbb_blogs`.`blog_reply_count` - 1)' [1690]
 BIGINT UNSIGNED value is out of range in '(`mydatabase`.`phpbb_blogs_categories`.`blog_count` - 1)' [1690]
